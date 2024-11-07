@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <style>
+        body {
+            background-color: black;
+            font-family: Arial, sans-serif;
+        }
+
+        #logo {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            height: 50%;
+            
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            text-align: center;
+        }
+
+        li {
+            display: inline;
+        }
+
+        li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .row1 {
+            text-align: center;
+            margin-top: 50px;
+            animation: right-slideshow 10s infinite linear;
+            
+        }
+
+        .row2 {
+            text-align: center;
+            margin-top: 50px;
+            animation: left-slideshow 10s infinite linear;
+        }
+
+        .row3 {
+            text-align: center;
+            margin-top: 50px;
+            animation: right-slideshow 10s infinite linear;
+        }
+
+        @keyframes right-slideshow {
+            from {margin-left: 100%}
+            to {margin-left: -100%}
+        }
+
+        @keyframes left-slideshow {
+            from {margin-right: 100%}
+            to {margin-right: -100%}
+        }
+
+
+    </style>
+
+
+
+
+
+
+</head>
+<body>
+    <ul>
+        <li><a href="login.html">
+            <button type="button">Login</button>
+        </a></li>
+
+        <li><a href="register.html">
+            <button type="button">Sign Up</button>
+        </a></li>
+        
+    </ul>
+
+    <img id="logo" src="Pictures\LabWorkz Logo.png" alt="logo">
+
+
+
+    <div class="row1"><img src="Pictures\python.png" alt="python icon"></div>
+    <div class="row2"><img src="Pictures\js.png" alt="javscript icon"></div>
+    <div class="row3">
+        <img src="Pictures\html.png" alt="html icon">
+        <img src="Pictures\css-3.png" alt="css icon">
+    </div>
+    
+
+    
+</body>
+</html>
