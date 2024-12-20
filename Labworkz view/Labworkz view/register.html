@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LabWorkz - Register</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="assets/js/register.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">LabWorkz</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="form-section">
+    <h2>Create a LabWorkz Account</h2>
+    <form id="registerForm">
+      <!-- Select User Type -->
+      <div class="form-group">
+        <label for="userType">I am a:</label>
+        <select id="userType" name="userType" required>
+          <option value="">-- Select --</option>
+          <option value="student">Student</option>
+          <option value="recruiter">Recruiter</option>
+        </select>
+      </div>
+
+      <!-- Student Section -->
+      <div id="studentFields" class="hidden">
+        <div class="form-group">
+          <label for="school">School/University:</label>
+          <input type="text" id="school" name="school">
+        </div>
+        <div class="form-group">
+          <label for="studyField">Field of Study:</label>
+          <input type="text" id="studyField" name="studyField">
+        </div>
+      </div>
+
+      <!-- Recruiter Section -->
+      <div id="recruiterFields" class="hidden">
+        <div class="form-group">
+          <label for="company">Company:</label>
+          <input type="text" id="company" name="company">
+        </div>
+        <div class="form-group">
+          <label for="position">Position:</label>
+          <input type="text" id="position" name="position">
+        </div>
+      </div>
+
+      <!-- Shared Fields -->
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit" class="btn">Register</button>
+    </form>
+    <p>Already have an account? <a href="login.html">Login here</a>.</p>
+  </section>
+</body>
+</html>

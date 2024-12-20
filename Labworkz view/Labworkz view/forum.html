@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LabWorkz - Forum</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">LabWorkz</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tutorials.html">Tutorials</a></li>
+        <li><a href="challenges.html">Challenges</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="content-section">
+    <h2>Forum</h2>
+    <p>Engage with the LabWorkz community. Ask questions, share knowledge, and collaborate.</p>
+
+    <!-- Create New Thread -->
+    <div class="new-thread">
+      <h3>Create a New Thread</h3>
+      <form id="newThreadForm">
+        <div class="form-group">
+          <label for="threadTitle">Title:</label>
+          <input type="text" id="threadTitle" name="threadTitle" required>
+        </div>
+        <div class="form-group">
+          <label for="threadContent">Content:</label>
+          <textarea id="threadContent" name="threadContent" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn">Post Thread</button>
+      </form>
+    </div>
+
+    <!-- Forum Threads -->
+    <div class="thread-list">
+      <h3>Latest Discussions</h3>
+      <div class="thread">
+        <h4>Best Practices for Learning JavaScript</h4>
+        <p>Posted by: John Doe | Replies: 5</p>
+        <a href="#" class="btn">View Thread</a>
+      </div>
+      <div class="thread">
+        <h4>How to Prepare for Coding Interviews</h4>
+        <p>Posted by: Jane Smith | Replies: 8</p>
+        <a href="#" class="btn">View Thread</a>
+      </div>
+      <div class="thread">
+        <h4>Resources for Learning Python</h4>
+        <p>Posted by: Alex Lee | Replies: 12</p>
+        <a href="#" class="btn">View Thread</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 LabWorkz. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

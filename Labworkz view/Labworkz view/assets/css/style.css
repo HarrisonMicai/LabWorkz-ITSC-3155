@@ -1,0 +1,192 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: #333;
+    color: white;
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header .nav-links a {
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+header .nav-links a:hover,
+header .nav-links .cta {
+    background: #007bff;
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #007bff, #00d4ff);
+    color: white;
+    text-align: center;
+    padding: 60px 10%;
+}
+
+.hero .btn-primary {
+    background: white;
+    color: #007bff;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.hero .btn-secondary {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+/* Features Section */
+.features {
+    padding: 40px 10%;
+    text-align: center;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature-cards .card {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+/* Testimonials */
+.testimonials {
+    padding: 40px 10%;
+    background: #f1f1f1;
+    text-align: center;
+}
+
+.testimonial-slider .testimonial {
+    margin: 20px 0;
+}
+
+/* Contact Section */
+.contact {
+padding: 40px 10%;
+text-align: center;
+}
+
+.contact form {
+max-width: 400px;
+margin: 0 auto;
+}
+
+.contact form label {
+display: block;
+margin: 10px 0 5px;
+}
+
+.contact form input,
+.contact form textarea {
+width: 100%;
+padding: 10px;
+border: 1px solid #ddd;
+border-radius: 4px;
+margin-bottom: 20px;
+}
+
+.contact form button {
+background: #007bff;
+color: white;
+padding: 10px 20px;
+border-radius: 4px;
+border: none;
+}
+
+/* Login/Sign-Up */
+.form-section {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #f9f9f9;
+}
+  
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.form-group {
+    margin-bottom: 15px;
+}
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+  
+.hidden {
+    display: none;
+}
+
+/* Forum Styles */
+.new-thread {
+    margin-bottom: 30px;
+}
+  
+.thread-list .thread {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background: #f9f9f9;
+}
+  
+/* Recruiter Dashboard Styles */
+.search-bar {
+    margin-bottom: 20px;
+}
+  
+.search-bar input {
+    width: calc(100% - 120px);
+    display: inline-block;
+    margin-right: 10px;
+}
+  
+.candidate-list .candidate {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background: #f9f9f9;
+}
+  
